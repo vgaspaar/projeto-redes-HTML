@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8"/>
+  <title>Uninassau</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 0; }
+
+    nav {
+      background: #f7e440;
+      padding: 1rem 2rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    nav .logo-area {
+      display: flex;
+      align-items: center;
+      gap: 0.8rem;
+    }
+    nav .logo-area img {
+      height: 50px;
+    }
+    nav .logo { color: rgb(0, 0, 0); font-size: 1.4rem; font-weight: bold; }
+    nav a { color: black; text-decoration: none; margin-left: 1.5rem; font-size: 0.9rem; }
+
+    .hero {
+      background: #1a1a1a;
+      color: white;
+      text-align: center;
+      padding: 3rem 2rem 5rem;
+    }
+    .hero img {
+      height: 90px;
+      margin-bottom: 1.5rem;
+    }
+    .hero h1 { font-size: 2.5rem; margin-bottom: 1rem; }
+    .hero p { font-size: 1rem; color: #ccc; margin-bottom: 2rem; }
+    .hero button {
+      background: #f7e440;
+      color: rgb(0, 0, 0);
+      border: none;
+      padding: 0.8rem 2rem;
+      font-size: 1rem;
+      cursor: pointer;
+      border-radius: 4px;
+    }
+
+    .cursos {
+      padding: 3rem 2rem;
+      text-align: center;
+    }
+    .cursos h2 { margin-bottom: 2rem; }
+    .grid {
+      display: flex;
+      justify-content: center;
+      gap: 1rem;
+      flex-wrap: wrap;
+    }
+    .card {
+      border: 1px solid #ddd;
+      border-radius: 6px;
+      padding: 1.5rem;
+      width: 180px;
+    }
+    .card h3 { font-size: 0.95rem; margin-top: 0.5rem; }
+
+    footer {
+      background: #1a1a1a;
+      color: #aaa;
+      text-align: center;
+      padding: 1.5rem;
+      font-size: 0.85rem;
+    }
+  </style>
+</head>
+<body>
+
+<nav>
+  <div class="logo-area">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRO8jI57gIQ2EfhG1KLV0nU3iHjzlIyy7pvoQ&s" alt="Logo Uninassau">
+    <div class="logo">UNINASSAU</div>
+  </div>
+  <div>
+    <a href="#">Cursos</a>
+    <a href="#">EAD</a>
+    <a href="#">Contato</a>
+    <a href="#">Portal do Aluno</a>
+  </div>
+</nav>
+
+<div class="hero">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRO8jI57gIQ2EfhG1KLV0nU3iHjzlIyy7pvoQ&s" alt="Logo Uninassau">
+  <h1>Bem-vindo à Uninassau</h1>
+  <p>Educação de qualidade para transformar o seu futuro.</p>
+  <button>Inscreva-se</button>
+</div>
+
+<div class="cursos">
+  <h2>Nossos Cursos</h2>
+  <div class="grid">
+    <div class="card"><div>💻</div><h3>Computação</h3></div>
+    <div class="card"><div>⚖️</div><h3>Direito</h3></div>
+    <div class="card"><div>🏥</div><h3>Enfermagem</h3></div>
+    <div class="card"><div>📊</div><h3>Administração</h3></div>
+    <div class="card"><div>🎨</div><h3>Design</h3></div>
+  </div>
+</div>
+
+<footer>© 2026 Uninassau — Todos os direitos reservados</footer>
+
+</body>
+</html>
