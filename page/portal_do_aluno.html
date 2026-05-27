@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8"/>
+  <title>Portal do Aluno - Uninassau</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 0; background: #f4f4f4; }
+
+    nav {
+      background: #f7e440;
+      padding: 1rem 2rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    nav .logo-area {
+      display: flex;
+      align-items: center;
+      gap: 0.8rem;
+    }
+    nav .logo-area img { height: 50px; }
+    nav .logo { color: black; font-size: 1.4rem; font-weight: bold; }
+    nav a { color: black; text-decoration: none; margin-left: 1.5rem; font-size: 0.9rem; }
+
+    .hero {
+      background: #1a1a1a;
+      color: white;
+      text-align: center;
+      padding: 3rem 2rem;
+    }
+    .hero img { height: 70px; margin-bottom: 1rem; }
+    .hero h1 { font-size: 2rem; margin-bottom: 0.5rem; }
+    .hero p { color: #ccc; font-size: 0.95rem; }
+
+    .login-box {
+      background: white;
+      max-width: 400px;
+      margin: 3rem auto;
+      padding: 2rem;
+      border-radius: 8px;
+      box-shadow: 0 2px 12px rgba(0,0,0,0.1);
+    }
+    .login-box h2 { margin-bottom: 1.5rem; font-size: 1.2rem; text-align: center; }
+
+    .login-box label { display: block; font-size: 0.85rem; margin-bottom: 0.3rem; color: #444; }
+    .login-box input {
+      width: 100%;
+      padding: 0.7rem;
+      border: 1px solid #ddd;
+      border-radius: 4px;
+      font-size: 0.95rem;
+      margin-bottom: 1.2rem;
+      box-sizing: border-box;
+    }
+    .login-box button {
+      width: 100%;
+      background: #f7e440;
+      color: black;
+      border: none;
+      padding: 0.8rem;
+      font-size: 1rem;
+      font-weight: bold;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+    .login-box button:hover { background: #e6d400; }
+    .login-box .links {
+      text-align: center;
+      margin-top: 1rem;
+      font-size: 0.82rem;
+    }
+    .login-box .links a { color: #1a1a1a; text-decoration: none; margin: 0 0.5rem; }
+    .login-box .links a:hover { text-decoration: underline; }
+
+    .atalhos {
+      max-width: 700px;
+      margin: 0 auto 3rem;
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 1rem;
+      padding: 0 1rem;
+    }
+    .atalho {
+      background: white;
+      border-radius: 6px;
+      padding: 1.5rem;
+      text-align: center;
+      border-top: 3px solid #f7e440;
+      box-shadow: 0 1px 6px rgba(0,0,0,0.07);
+    }
+    .atalho div { font-size: 1.8rem; margin-bottom: 0.5rem; }
+    .atalho p { font-size: 0.85rem; color: #444; margin: 0; }
+
+    footer {
+      background: #1a1a1a;
+      color: #aaa;
+      text-align: center;
+      padding: 1.5rem;
+      font-size: 0.85rem;
+    }
+  </style>
+</head>
+<body>
+
+<nav>
+  <div class="logo-area">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRO8jI57gIQ2EfhG1KLV0nU3iHjzlIyy7pvoQ&s" alt="Logo Uninassau">
+    <div class="logo">UNINASSAU</div>
+  </div>
+  <div>
+    <a href="index.html">Início</a>
+    <a href="#">Cursos</a>
+    <a href="#">Contato</a>
+  </div>
+</nav>
+
+<div class="hero">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRO8jI57gIQ2EfhG1KLV0nU3iHjzlIyy7pvoQ&s" alt="Logo Uninassau">
+  <h1>Portal do Aluno</h1>
+  <p>Acesse suas notas, horários e muito mais.</p>
+</div>
+
+<div class="login-box">
+  <h2>Entrar na sua conta</h2>
+  <label>Matrícula</label>
+  <input type="text" placeholder="Digite sua matrícula"/>
+  <label>Senha</label>
+  <input type="password" placeholder="Digite sua senha"/>
+  <button>Entrar</button>
+  <div class="links">
+    <a href="#">Esqueci minha senha</a> · <a href="#">Primeiro acesso</a>
+  </div>
+</div>
+
+<div class="atalhos">
+  <div class="atalho"><div>📋</div><p>Notas e Frequência</p></div>
+  <div class="atalho"><div>📅</div><p>Horário de Aulas</p></div>
+  <div class="atalho"><div>📄</div><p>Documentos</p></div>
+  <div class="atalho"><div>💰</div><p>Financeiro</p></div>
+  <div class="atalho"><div>📚</div><p>Biblioteca Virtual</p></div>
+  <div class="atalho"><div>🎓</div><p>Estágio e TCC</p></div>
+</div>
+
+<footer>© 2026 Uninassau — Todos os direitos reservados</footer>
+
+</body>
+</html>
